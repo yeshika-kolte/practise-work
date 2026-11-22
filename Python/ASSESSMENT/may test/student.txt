@@ -1,0 +1,3 @@
+Name:Amit
+Course:python
+Marks:85

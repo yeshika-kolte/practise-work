@@ -1,0 +1,26 @@
+<html>
+  <head>
+      <title>ToDo list</title>
+      {%include "__bootstrap.html"%}
+  </head>
+<body>
+  {%include "__navigation.html"%}
+  <div class="container mt-3">
+      {%if message%}
+        <div class="alert alert-success">{{message}}</div>
+      {%endif%}
+      <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>S.no</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Priority</th>
+
+            </tr>
+          </thead>
+
+      </table>
+  </div>
+</body>
+</html>
